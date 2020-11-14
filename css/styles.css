@@ -16,18 +16,22 @@ h1{
 h2{
     color: #393e46;
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
+    font-size: 3rem;
+    font-weight: bold;
+
 }
 
 h3{
     color: #393e46;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+
 }
 
 p{
         line-height:1.5;
-        font-size: 22px;
+        font-size: 1.8rem;
         text-decoration: solid;
 }
 
@@ -65,7 +69,7 @@ a:hover {
 .skill-row{
     margin: 100px auto;
     text-align: left;
-    width: 50rem;
+    width: 55rem;
 }
 
 .programing-img{
@@ -130,3 +134,4 @@ a:hover {
   color: #eeeeee;
   font-size: 1rem;
 }
+
