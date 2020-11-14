@@ -32,6 +32,7 @@ h3{
 p{
         line-height:1.5;
         font-size: 1.7rem;
+        font-weight: normal;
 }
 
 hr{
@@ -72,13 +73,13 @@ a:hover {
 }
 
 .programing-img{
-    width: 144px;
+    width: 220px;
     float: left;
     margin-right: 11px;
 }
 
 .soccer-img{
-    width: 144px;
+    width: 220px;
     float: right;
     margin-left: 11px;
 }
