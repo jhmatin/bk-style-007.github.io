@@ -48,10 +48,6 @@ input[type=text], select, textarea {
   font-family: 'Merriweather', serif;
 }
 
-form{
-    margin-top: 100%;
-}
-
 input[type=email], select, textarea {
   width: 98%;
   padding: 12px;
