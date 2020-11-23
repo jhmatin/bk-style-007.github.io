@@ -75,9 +75,15 @@ input[type=email], select, textarea {
   padding-top: 20px;
   padding-bottom: 1px;
   text-align: center;
-  position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+@media (max-width: 1024px){
+  .bottom-container{
+      position: fixed;
+      z-index: -1;
+  }
 }
 
 .BUTTON_FTA {
