@@ -75,13 +75,13 @@ a:hover {
 .programing-img{
     width: 220px;
     float: left;
-    margin-right: 11px;
+    margin-right: 15px;
 }
 
 .soccer-img{
     width: 220px;
     float: right;
-    margin-left: 11px;
+    margin-left: 5px;
 }
 
 .contact-msg{
