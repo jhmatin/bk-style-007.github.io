@@ -924,7 +924,7 @@ img {
 }
 
 .status.error {
-  background-color: firebrick;
+  background-color: #F54748;
   animation: status 3s ease forwards;
 }
 
