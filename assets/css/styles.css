@@ -396,6 +396,14 @@ img {
   color: var(--first-color-alt);
 }
 
+.submit-button {
+  text-decoration: none;
+  border: none;
+  font-family: var(--body-font);
+  font-weight: var(--font-medium);
+  font-size: var(--normal-font-size);
+}
+
 /*==================== ABOUT ====================*/
 .about__img {
   width: 200px;
