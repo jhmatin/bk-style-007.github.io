@@ -906,9 +906,37 @@ img {
   width: 90%;
   max-width: 500px;
   text-align: center;
-  padding: 1rem;
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-medium);
+  padding: 8px;
   margin: 0 auto;
   border-radius: 0.5rem;
+  color: #fff;
+}
+
+.status.success {
+  background-color: var(--first-color-alt);
+  animation: status 3s ease forwards;
+}
+
+.status.error {
+  background-color: firebrick;
+  animation: status 3s ease forwards;
+}
+
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  80% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
 }
 
 /*==================== FOOTER ====================*/
