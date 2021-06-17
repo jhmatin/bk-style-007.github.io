@@ -919,12 +919,12 @@ img {
 }
 
 .status.success {
-  background-color: #57e089;
+  background-color: var(--first-color-alt);
   animation: status 3s ease forwards;
 }
 
 .status.error {
-  background-color: #e05757;
+  background-color: firebrick;
   animation: status 3s ease forwards;
 }
 
